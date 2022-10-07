@@ -17,6 +17,10 @@
 
 8. Sert links on the header components.
 
+** How to Load Data from the JSON file **
 
+1. Home component e jeikhane jabe mane path er vitore children er moddhe oine ekta loader use korte hobe.
+
+2. 
 
 */
