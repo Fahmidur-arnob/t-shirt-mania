@@ -1,0 +1,17 @@
+.header{
+    margin-top: 20px;
+    padding: 8px;
+}
+
+.header a{
+    text-decoration: none;
+    font-size: 25px;
+    color: brown;
+    margin-right: 25px;
+    padding: 5px 10px;
+}
+
+.header a:hover{
+    /* color: #c4a32b; */
+    color: #EC440A;
+}
