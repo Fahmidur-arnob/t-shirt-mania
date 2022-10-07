@@ -1,0 +1,25 @@
+
+
+.T-shirt{
+    border: 1px solid lightsalmon;
+    border-radius: 14px;
+    padding-bottom: 20px;
+}
+
+.T-shirt img{
+    height: 250px;
+    width: 200px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+button{
+    background-image: linear-gradient(brown, lightsalmon);
+    font-size: 18px;
+    color: lavenderblush;
+    border: 2px solid lemonchiffon;
+    border-radius: 20px;
+    padding: 7px;
+    cursor: pointer;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
