@@ -5,6 +5,7 @@ const Cart = ({cart}) => {
     return (
         <div>
             <h2>Order Summary</h2>
+            <h3>Order Quantity: {cart.length}</h3>
         </div>
     );
 };
