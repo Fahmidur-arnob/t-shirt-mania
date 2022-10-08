@@ -20,22 +20,34 @@ const Home = () => {
             const newCart = [...cart, tShirt];//notun ekta cart hoye gelo.. mutation korar drkr porlo na .. new ekta array create kore fellam .. 
 
             setCart(newCart);//state e set hoye gelo
+
+            alert('T-shirt added successfully');
         }
 
     }
+
+    const removeItem = (tShirt) => {
+        const remaining = cart.filter(ts => ts._id !== tShirt._id);
+        setCart(remaining);
+    }
+
+
     return (
         <div className='home-container'>
             <div className="tshirt-continer">
                 {
                     tShirts.map(tShirt => <TShirt
-                        key={tShirt.id}
+                        key={tShirt._id}
                         tShirt={tShirt}
                         handleAddToCart={handleAddToCart}
                     ></TShirt>)
                 }
             </div>
             <div className="cart-container">
-                <Cart cart={cart}></Cart>
+                <Cart 
+                    cart={cart}
+                    removeItem = {removeItem}
+                ></Cart>
             </div>
         </div>
     );
